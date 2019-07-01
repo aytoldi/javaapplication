@@ -1,5 +1,6 @@
 package list.set;
 
+import java.util.Iterator;
 import java.util.Set;
 import java.util.HashSet;
 
@@ -20,6 +21,11 @@ public class onload {
         createColor.add("bloack");
         createColor.add("white");
         System.out.println("输出元素的内容-------------");
+        Iterator newIt = createColor.iterator();
+        //迭代器当中是否有元素
+        while (newIt.hasNext()) {
+            System.out.println(newIt.next() + "-");//读入下一个
+        }
     }
 }
 
