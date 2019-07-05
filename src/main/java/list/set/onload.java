@@ -8,6 +8,7 @@ import java.util.HashSet;
  *
  * 用HashSet存储多个表示颜色的英文单词，并输出。
  * 单词包括：blue，red，black，white
+ *
  * */
 
 public class onload {
