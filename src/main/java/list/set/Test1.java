@@ -5,13 +5,13 @@ import java.util.Set;
 import java.util.HashSet;
 
 /*
- *
+ *set基础知识
  * 用HashSet存储多个表示颜色的英文单词，并输出。
  * 单词包括：blue，red，black，white
  *
  * */
 
-public class onload {
+public class Test1 {
     public static void main(String[] args) {
         /*
          * HashSet 是 Set 对象的构造器

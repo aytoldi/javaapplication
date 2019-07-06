@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.Date;
 
 //公告管理
-public class onLoad {
+public class Test2 {
     public static void main(String[] args) {
-        Notice notice1 = new Notice(1, "欢迎来到慕课网", "管理员", new Date());
-        Notice notice2 = new Notice(2, "欢迎来到慕课网", "管理员", new Date());
-        Notice notice3 = new Notice(3, "欢迎来到慕课网", "管理员", new Date());
+        Admin notice1 = new Admin(1, "欢迎来到慕课网", "管理员", new Date());
+        Admin notice2 = new Admin(2, "欢迎来到慕课网", "管理员", new Date());
+        Admin notice3 = new Admin(3, "欢迎来到慕课网", "管理员", new Date());
         //添加公告
         ArrayList list = new ArrayList();
         list.add(notice1);
@@ -18,12 +18,12 @@ public class onLoad {
         System.out.println("显示公告的内容:");
         for (int i = 0; i < list.size(); i++) {
             /*
-                list.get(i) 返回值是一个Object ， Notice类的有getTitle（）方法, 所以进行强制转换成对象
+                list.get(i) 返回值是一个Object ， Admin类的有getTitle（）方法, 所以进行强制转换成对象
                 Object[] objects=(Object[])list.get(0);
                 return objects[3]
                 get方法的返回值是一个Object，Object中取出值得时候先创建对应的对象，然后获取对应的值
             * */
-            Notice createObj = (Notice) list.get(i);
+            Admin createObj = (Admin) list.get(i);
             System.out.println(createObj.getId());
             System.out.println(createObj.getTitle());
             System.out.println(createObj.getAdmin());
@@ -32,16 +32,16 @@ public class onLoad {
     }
 }
 
-class Notice {
+class Admin {
     private int id;//id
     private String title;//标题
     private String admin;//创建人
     private Date createTime;//创建时间
 
-    public Notice() {
+    public Admin() {
     }
 
-    public Notice(int id, String title, String admin, Date createTime) {
+    public Admin(int id, String title, String admin, Date createTime) {
         super();
         this.id = id;
         this.title = title;

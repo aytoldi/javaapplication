@@ -1,6 +1,7 @@
 package array.basic;
 
-public class onload {
+/*数组入门*/
+public class ArrayDemo1 {
     public static void main(String[] args) {
         int[] intArray;//声明一个整形类型的数组
         String[] stringArray;//声明一个字符类型串数组

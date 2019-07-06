@@ -1,8 +1,9 @@
-package list.basic;
+package list.arrayList;
 
 import java.util.ArrayList;
 
-public class onLoad {
+/*arrayList 基础知识*/
+public class Test1 {
     public static void main(String[] args) {
         ArrayList list = new ArrayList();
         //添加

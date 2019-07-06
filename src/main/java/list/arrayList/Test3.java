@@ -1,10 +1,10 @@
-package list.arrayListCURD;
+package list.arrayList;
 
 import java.util.ArrayList;
 import java.util.Date;
 
-
-public class onload20190701 {
+/*设计一个公告类，添加公告人员*/
+public class Test3 {
     public static void main(String[] args) {
         Notice notice1 = new Notice(1, "imooc java", "tahirjan", new Date());
         Notice notice2 = new Notice(2, "imooc python", "nurala", new Date());

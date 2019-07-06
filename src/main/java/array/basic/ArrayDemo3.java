@@ -2,7 +2,8 @@ package array.basic;
 
 import java.util.Scanner;
 
-public class sum {
+/*计算数组中元素的累加*/
+public class ArrayDemo3 {
     public static void main(String[] args) {
         //定义一个整形类型的额数组
         int[] intArray = new int[5];

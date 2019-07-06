@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.Set;
 import java.util.HashSet;
 
-public class CatTest {
+public class Test2 {
     public static void main(String[] args) {
         Cat HUAHUA = new Cat(0, "花花", 12, "英国短毛猫");
         Cat FANFAN = new Cat(1, "凡凡", 5, "美国短毛猫");
