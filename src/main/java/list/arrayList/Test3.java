@@ -11,6 +11,7 @@ public class Test3 {
         ArrayList list = new ArrayList();//list有序可以重复的
         list.add(notice1);
         list.add(notice2);
+        //get返回的值是Object，我们把值Object中获取对应的值
         for (int i = 0; i < list.size(); i++) {
             Notice createObj = (Notice) list.get(i);
             System.out.println(createObj.getId());

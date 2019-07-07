@@ -22,6 +22,7 @@ public class Test1 {
         createColor.add("bloack");
         createColor.add("white");
         System.out.println("输出元素的内容-------------");
+        //集合当中的字存储到迭代器中, iterator()返回的是一个Iterator对象，我们Iterator对象中获取对应的值
         Iterator newIt = createColor.iterator();
         //迭代器当中是否有元素
         while (newIt.hasNext()) {
