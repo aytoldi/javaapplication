@@ -68,12 +68,9 @@ public class CalculatorDemo extends JFrame
         JButton button16=new JButton("/");    //新建按钮
         panel2.add(button16);    //应用按钮
     }
-
-
     public static void main(String[] args)
     {
         CalculatorDemo frame=new CalculatorDemo();
         frame.setVisible(true);
     }
-
 }
